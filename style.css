@@ -1,0 +1,487 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    color: #4F4F4F;    
+}
+
+.heading{
+  max-width: 1280px;
+  width: 100%;
+  height: 880px;
+  padding: 160px;
+  margin: auto;
+  box-sizing: content-box;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex_align{
+  display: flex;
+  align-items: center;
+}
+
+.flex_space{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* начало меню */
+
+.menu{
+  width: 98px;
+  background: #FDFDFF;
+  position: relative;
+  z-index: 1;
+}
+
+.logo{
+  width: 51px;
+  margin: 46px 23px 149px;
+}
+
+.badges{
+  width: 25px;
+  margin: 0px 36px 53px;
+}
+
+.image_badges{
+    margin-bottom: 40px;
+}
+
+.image_badges:last-child{
+    margin-bottom: 0px;
+}
+
+.image_setting{
+    margin-bottom: 52px;
+}
+
+.image_setting:last-child{
+    margin-bottom: 0px;
+}
+
+.cursore:hover{
+  cursor: pointer;
+}
+
+.border{
+    border: 0.5px solid #4F4F4F;
+    border-radius: 50px;
+    width: 60px;
+    margin: 117px 18px 47px;
+}
+
+.rectangle{
+    margin: 5px 8px;
+    width: 20px;
+    border: 0.5px solid #7F7FD5;
+    background: #7F7FD5;
+    border-radius: 50px;
+}
+
+.img_rectangle{
+    margin: 0px 5.25px;
+}
+
+/* конец меню */
+
+/*начало хедера*/
+
+.head{
+  width: 1182px;
+  height: 137px;
+  background-color: rgba(239, 243, 249, 1);
+  position: relative;
+  z-index: 1;
+}
+
+.logo_text{
+margin: 0px 48px;
+font-size: 30px;
+}
+
+.search_border{
+  border: 1px solid rgba(235, 235, 235, 1);
+  border-radius: 8px;
+  width: 153px;
+  height: 30px;
+  margin: 53.5px 0px;
+  background-color: #FDFDFF;
+}
+
+.search{
+  margin: 11px 8px 11px 18px;
+}
+
+.input{
+  width: 111px;
+  height: 27px;
+  border: solid transparent;
+  border-radius: 8px;
+  color: #979797;
+  background-color: #FDFDFF;
+}
+
+.bell{
+  margin-left: 25px;
+}
+
+.icon{
+  margin:0px 11px;
+}
+
+.scrolling{
+  margin-right: 59px;
+}
+
+/*конец хедера*/
+
+/*начало контента*/
+
+.grid-container {
+    background-color: rgba(239, 243, 249, 1);
+    padding: 0px 47px 47px 47px;
+    margin: auto;
+    width: 100%;
+    height: 84.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 24px 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 32px;
+    grid-auto-rows: 69px;
+    position: relative;
+    z-index: 1;
+   }
+
+   .grid_element{
+    border-radius: 13px;
+    background-color: #fff;
+
+}
+
+  #friends{
+    grid-column-start: 1 ;
+    grid-column-end: 5 ;
+    grid-row-start: 1 ;
+    grid-row-end: 3 ;
+    padding: 24px;
+  }
+
+  .name_friends{
+    font-size: 20px;
+  }
+
+  .other{
+    border: 3px solid #979797;
+    background: #979797;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin-right: 5px;
+  }
+
+  .other:last-child{
+    margin-right: 0px;
+  }
+
+  .people{
+    font-size: 20px;
+  }
+
+  .interest{
+    color: #979797;
+    font-size: 20px;
+  }
+
+  .arrow_up{
+    color: #7F7FD5;
+  }
+
+  #Unique-visitors{
+    grid-column-start: 5 ;
+    grid-column-end: 9 ;
+    grid-row-start: 1 ;
+    grid-row-end: 3 ;
+    padding: 24px;
+  }
+
+  .arrow_down{
+    color: #E786D7;
+  }
+
+  #Followers{
+    grid-column-start: 9 ;
+    grid-column-end: 13 ;
+    grid-row-start: 1 ;
+    grid-row-end: 3 ;
+    padding: 24px;
+  }
+
+  #Audience-reach{
+    grid-column-start: 1 ;
+    grid-column-end: 10 ;
+    grid-row-start: 3 ;
+    grid-row-end: 6 ;
+    padding: 24px;
+  }
+
+  .name_reach{
+    font-size: 20px;
+  }
+
+  .scrolling_reach{
+    margin-left: 10px;
+  }
+
+  .border_check_blue{
+    border: 1.5px solid #7F7FD5;
+    width: 16px;
+    height: 16px;
+    border-radius: 5px;
+    margin-right: 6px;
+    margin-left: 41px;
+  }
+
+  .border_check_pink{
+    border: 1.5px solid #E786D7;
+    width: 16px;
+    height: 16px;
+    border-radius: 5px;
+    margin-right: 6px;
+    margin-left: 10px;
+  }
+
+  .follower{
+    padding-right: 39px;
+  }
+
+  .Audience_reach_schedule{
+    margin-top:29px ;
+    width: 100%;
+
+  }
+
+  #Reach-by-device{
+    grid-column-start: 10 ;
+    grid-column-end: 13 ;
+    grid-row-start: 3 ;
+    grid-row-end: 6 ;
+  }
+
+  .name_device{
+    padding: 22px 0 0 24px ;
+    font-size: 20px;
+  }
+
+  .img_diagram{
+    width: 121px;
+    height: 121px;
+    margin-top: 38px;
+    margin-left: 15px;
+  }
+
+  .diagram_14{
+    position: relative;
+    left: 100px;
+    top: -125px;
+    }
+  
+  .diagram_big{
+    position: relative;
+    left: 40px;
+    top: -120px;
+    color: #fff;
+  }
+  
+  .diagram_small{
+      position: relative;
+      left: 120px;
+      top: -170px;
+      color: #fff;
+    }
+
+  .border_device_pink{
+    margin-top: 39px;
+    margin-left: 10px;
+  }
+
+  .border_women_pink::before,
+  .border_device_pink::before{
+    content: '';
+    border: 1.5px solid #E786D7;
+    background-color: #E786D7;
+    height: 16px;
+    border-radius: 5px;
+    padding-right: 15px;
+    margin-right: 5px;
+  }
+
+  .border_device_blue{
+    margin-top: 11px;
+    margin-left: 10px;
+  }
+
+  .border_men_blue::before,
+  .border_device_blue::before{
+    content: '';
+    border: 1.5px solid #7F7FD5;
+    background-color: #7F7FD5;
+    height: 16px;
+    border-radius: 5px;
+    padding-right: 15px;
+    margin-right: 5px;
+
+  }
+
+  #Gender-Age{
+    grid-column-start: 1 ;
+    grid-column-end: 8 ;
+    grid-row-start: 6 ;
+    grid-row-end: 9 ;
+    padding: 23px 42px 0 24px;
+  }
+
+  .name_age{
+    font-size: 20px;
+  }
+
+  .border_men_blue{
+    margin-left: 15px;
+  }
+
+  .diagram_age{
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  #Geo{  
+    grid-column-start: 8 ;
+    grid-column-end: 13 ;
+    grid-row-start: 6 ;
+    grid-row-end: 9 ;
+    padding: 23px 24px;
+}
+
+.name_geo{
+  font-size: 20px;
+}
+
+.City{
+  color: #979797;
+  margin-left: 25px;
+}
+
+.country_interest,
+.country{
+  margin-top: 15px;
+}
+
+.line_Other,
+.line_USA,
+.line_China,
+.line_Mongolia,
+.line_Ukraine,
+.line_Russia{
+  width: 140px;
+  height: 10px;
+  border: 1px solid #EFF3F9 ;
+  border-radius: 9px;
+  background-color: #EFF3F9;
+  margin-top: 9px;
+}
+
+.line_Russia::before{
+  content: '';
+  display: block;
+  width: 128px;
+  height: 10px;
+  background-color: #7F7FD5;
+  border-radius: 9px;
+  margin: -1px;
+}
+
+.line_Ukraine::before{
+  content: '';
+  display: block;
+  width: 5px;
+  height: 10px;
+  background-color: #7F7FD5;
+  border-radius: 9px;
+  margin: -1px;
+}
+
+.line_Mongolia::before{
+  content: '';
+  display: block;
+  width: 4px;
+  height: 10px;
+  background-color: #7F7FD5;
+  border-radius: 9px;
+  margin: -1px;
+}
+
+.line_China::before{
+  content: '';
+  display: block;
+  width: 13px;
+  height: 10px;
+  background-color: #7F7FD5;
+  border-radius: 9px;
+  margin: -1px;
+}
+
+.line_USA::before{
+  content: '';
+  display: block;
+  width: 5px;
+  height: 10px;
+  background-color: #7F7FD5;
+  border-radius: 9px;
+  margin: -1px;
+}
+
+.line_Other::before{
+  content: '';
+  display: block;
+  width: 15px;
+  height: 10px;
+  background-color: #7F7FD5;
+  border-radius: 9px;
+  margin: -1px;
+}
+
+.country_interest{
+color:#979797;
+}
+/*конец контента*/
+
+/*начало фона*/
+
+.fon{
+  position: absolute;
+}
+
+.ellipse{
+  position: relative;
+  left: -160px;
+  top: -160px;
+  z-index: -1;
+}
+
+.circle{
+  position: relative;
+  right: -1070px;
+  top: 750px;
+  z-index: 2;
+}
+
+/*конец фона*/
