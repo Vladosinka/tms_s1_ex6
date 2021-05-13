@@ -18,14 +18,10 @@
   display: flex;
 }
 
-.flex_align{
-  display: flex;
-  align-items: center;
-}
-
 .flex_space{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .flex_column{
